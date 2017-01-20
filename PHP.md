@@ -134,6 +134,7 @@ function vidu($chuoi="Helloword!")
 {
 	echo $chuoi;
 }
+```
 - Có thể trả lại giá trị cho hàm bằng câu lệnh `return giá_trị_trả_về;`
 
 ####11. Mảng trong PHP
@@ -146,6 +147,7 @@ function vidu($chuoi="Helloword!")
 $mang = array("Hello","World");
 echo $mang[0]; => Hello
 echo $mang[1[; => World
+```
 - Associative arrays: Mảng với từ khóa được đặt tên
 
 ```
