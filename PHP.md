@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# Pentest_training
-=======
 #Learn PHP
 *Người thực hiện: Hoàng Quốc Cường*
 ##Nội dung
@@ -215,4 +212,3 @@ $query = "SELECT * FROM Thuoc";
 $result = mysqli_query($connect,$query);
 Giá trị của $result sẽ là TRUE hoặc FALSE; 
 ```
->>>>>>> 4561555cfc42d6a986720e2c37efb0df725a027a
