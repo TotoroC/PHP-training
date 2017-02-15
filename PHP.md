@@ -195,3 +195,20 @@ Một số biến toàn cục thường được sử dụng:
 **Note:**
 
 - Phương thức GET là phương thức gửi dữ liệu thông qua URL. Phương thức POST gửi dữ liệu qua form HTML.
+
+####13.Kết nối PHP với Database
+Cú pháp:
+```
+mysqli_connect('host','user database','password database','name database');
+Ví dụ: mysqli_connect('localhost','root','','benh_vien');
+```
+- Các thông số trong hàm mysqli_connect được ta khởi tạo khi tạo một database và được nhà cung cấp dịch vụ cung cấp.
+- Truy vấn cơ sở dữ liệu
+```
+mysqli_query() dùng để truy vấn vào cơ sở dữ liệu 
+-Ví dụ:
+$connect = mysqli_connect('localhost','root','','benh_vien');
+$query = "SELECT * FROM Thuoc";
+$result = mysqli_query($connect,$query);
+Giá trị của $result sẽ là TRUE hoặc FALSE; 
+```
